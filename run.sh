@@ -50,5 +50,7 @@ FlushDisk
 #FlushDisk
 #SEQ_READ
 rm $DATA/*
+rm -rf fio-seq-RW
+rm -rf fio-rand-RW
 set +x
 
