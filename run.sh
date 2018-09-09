@@ -1,6 +1,6 @@
 #!/bin/bash
 set -x
-APPBASE=$CODEBASE/apps/fio
+APPBASE=$APPBENCH/apps/fio
 APP=$APPBASE/fio
 DATA=$APPBASE/DATA
 SIZE=" --size=4G"
